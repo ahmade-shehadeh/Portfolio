@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
+  
+    <link rel="stylesheet" href="style.css" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+  </head>
+  <body class="overflow-x-hidden">
+    <nav class="container mx-auto p-6">
+      <div class="flex item-center justify-between">
+        <div class="h-1/2 w-16 rounded-full "><img class="rounded-full" src="./Screenshot_1.png" alt=""></div>
+
+        <div class="hidden sm:flex space-x-14 items-center">
+          <a href="#about" class="text-slate-900 font-serif hover:text-orange-500"> ABOUT</a>
+          <a href="#skills" class="text-slate-900 font-serif hover:text-orange-500"> SKILLS</a>
+          <a href="#projects" class="text-slate-900 font-serif hover:text-orange-500"> PROJECTS</a>
+          <a href="#contact" class="py-2 px-6 text-white bg-orange-500 rounded-full font-serif hover:text-slate-900 "> CONTACT</a>
+        </div>
+       
+          <button id="btnMenu" class="sm:hidden text-2xl">
+          <i class="ri-menu-line text-slate-900"> </i>
+        </button>
+         </div>
+
+          <div class="sm:hidden ">
+              <div id="menu" class="absolute flex flex-col items-center space-y-4 bg-gray-50 py-8 right-6 left-6 drop-shadow-lg border border-gray-300 font-bold">
+                <a href="#about" class=" font-serif "> ABOUT</a>
+                <a href="#skills" class=" font-serif "> SKILLS</a>
+                <a href="#projects" class=" font-serif "> PROJECTS</a>
+                <a href="#contact" class="py-2 px-6 text-white bg-orange-500 rounded-full font-serif hover:text-slate-900 "> CONTACT</a>
+              </div>
+            
+          </div>
+      
+    </nav>
+   
+
+<section id="hero">
+  <a name="home"></a>
+  <div class="container mx-auto px-6 space-x-6 flex flex-col-reverse md:flex-row py-6  ">
+    <div
+      class="sm: md:w-1/2  flex flex-col justify-center space-y-5 py-8 "
+    >
+      <h2 class=" text-4xl  font-serif text-orange-300 sm:text-6xl md:text-8xl">
+        ahmad<br />
+        shehadeh
+      </h2>
+      <p class=" text-sm md:text-2xl sm:text-lg">Full-Stack-Developer</p>
+    </div>
+      <div class="md:w1/2" >
+      <img src="./undraw_code_thinking_re_gka2.svg" />
+      <!--  class="w-40 h-32 rounded-md m-20" -->
+    </div>
+  </div>
+  
+  </section>
+
+  <section id="about">
+    <a name="about"></a>
+
+    <div class="py-1  bg-white">  
+      <div class="container  m-auto px-6 text-gray-600 md:px-12  text-3xl md:text-2xl">
+          <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+            <div class="md:h-40  lg:w-5/12 lg:pb-72">
+              <img src="./2.png" alt="image" loading="lazy" width="" height="" >
+            </div>
+            <div class="md:7/12 lg:w-6/12 ">
+              <h2 class="text-2xl   text-orange-600 font-bold md:text-2xl lg:text-4xl">About me :</h2>
+              <p class="text-sm mt-6 text-gray-600 md:text-xl ">I'm currently training for Meraci_Academy
+                as a full-stack project, I'm recently lead a 
+                E-commerce store and maintenance app as a team in addition to this project
+                I will train a front-end-design 
+                I also completed my bachelor's degree in computer information system from Al al-Bayt University</p>
+             
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <a name="skills"></a>
+    <div class="container px-6  md:px-12 py-10 xl:px-6 text-slate-600 lg:py-40">
+      <h2 class="text-2xl text-orange-600 font-bold md:text-2xl lg:text-4xl">Skills :</h2>
+      <div class="text-sm grid  grid-cols-2 gap-6 md:text-2xl mt-10 sm:grid-cols-3 lg:grid-cols-4 lg:w-screen lg:text-2xl">
+        <a ></i> 
+          <i class="ri-star-fill text-orange-300"></i>
+         </span  > JavaScript</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i> 
+        </span> React</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i>
+       </span> Node.js</a>
+       <a ><i class="ri-star-fill  text-orange-300"></i>
+      </span> work as a team</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> Redux</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> express</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> bootstrap</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> tailwind</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> Json</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i> 
+       </span> friendly</a>
+      <a ><i class="ri-star-fill  text-orange-300"></i></span> communication skills</a>
+
+     
+      
+    </div>
+    </div>
+    <div class="w-1/2"></div>
+  </section>
+
+  <section id="projects">
+    <a name="projects"></a>
+    <div class="container  px-6 text-gray-600 md:px-12 ">
+      <h2 class="text-2xl text-orange-600 font-bold md:text-4xl">projects :</h2>
+
+       
+<div class="text-sm grid grid-rows-2 gap-6 md:text-2xl mt-10 lg:text-2xl ">
+  <div >
+    <i class="ri-pages-line text-orange-400"></i><span class="text-slate-600">
+    <span class="text-orange-600"> Boreni Store :</span>An online store that sells men's clothing from my own prroject </span>
+    <a href="https://github.com/C7-ahmade-shehadeh/MERAKI_Academy_Project_4" target="_blank" class="ri-file-text-line"> 
+see code 
+   </a></div>
+   <div>
+   <i class="ri-pages-line text-orange-400"></i>
+    <span class="text-slate-600">  <span class="text-orange-600"> maintenance app  :</span> A site that aims to gather craft owners in one place to facilitate and organize the process. This project was done with a team </span>
+    <a href="https://github.com/ahmade-shehadeh/MERAKI_Academy_Project_5" target="_blank" class="ri-file-text-line"> 
+see code 
+   </a>
+   <a href="https://644adfe06b8a15054d747164--iridescent-gaufre-849558.netlify.app/" target="_blank" class="ri-live-fill"> 
+    live
+       </a>
+  </div>
+
+</div>
+
+      
+    </div>
+  </section>
+
+  <section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+       <a name="contact"></a>
+      <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact me</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            
+        </div>
+
+        
+    </div>
+</section>
+
+<script src="./main.js"></script>
+  </body>
+</html>
