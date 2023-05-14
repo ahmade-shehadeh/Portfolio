@@ -33,7 +33,7 @@
   margin-bottom: -5px;
 }
 .skills_head h2 span {
-  color: #e74d06;
+  color: #fdba74;
   
 
 }
@@ -66,7 +66,7 @@
   width: 50%;
   height: 100%;
   position: absolute;
-  background-color: #e74d06;
+  background-color: #fdba74;
   border-radius: 25px;
 }
 .skill_bar .bar .html {
@@ -154,7 +154,7 @@
   }
 }
 .skill_bar .bar .mongo {
-  width: 60%;
+  width: 80%;
   animation: mongo 2s;
 }
 @keyframes mongo {
@@ -162,7 +162,7 @@
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -180,7 +180,7 @@
 }
 
 .skill_bar .bar .sql {
-  width: 40%;
+  width: 70%;
   animation: sql 2s;
 }
 @keyframes sql {
@@ -188,7 +188,7 @@
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 70%;
   }
 }
 
