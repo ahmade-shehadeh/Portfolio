@@ -219,7 +219,7 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
   .skills_head {
     width: 100%;
     margin-bottom: 60px;
@@ -240,4 +240,4 @@
   .skills_main .skill_bar .info {   
     font-size: 15px;
   }
-}
+} */
